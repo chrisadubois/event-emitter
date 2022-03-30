@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <input
+        type="text"
+        id="listener"
+        name="listener"
+        placeholder="eventName"
+      />
+      <label id="input">listener</label>
+      <button id="listen">listen</button>
+      <br />
+      <br />
+      <input
+        type="text"
+        id="listener-once"
+        name="listener-once"
+        placeholder="eventName"
+      />
+      <label id="input-once">listenerOnce</label>
+      <button id="listen-once">listenOnce</button>
+      <br />
+      <br />
+      <input
+        type="text"
+        id="emitter-name"
+        name="emitter-name"
+        placeholder="eventName"
+      />
+      <input
+        type="number"
+        id="emitter-value"
+        name="emitter-value"
+        placeholder="value"
+        min="1"
+        max="1000"
+      />
+      <label id="input">emitter</label>
+      <button id="emit">emit</button>
+      <br />
+      <br />
+      <div id="events">
+        Events:
+        <br />
+        <br />
+      </div>
+      <br />
+      <br />
+      <button id="clear">clear</button>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
